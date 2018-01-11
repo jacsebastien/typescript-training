@@ -16,7 +16,8 @@
     "url": "https://github.com/jacsebastien/typescript-training/issues"
   },
   "homepage": "https://github.com/jacsebastien/typescript-training#readme",
-  "dependencies": {
+  "dependencies": {},
+  "devDependencies": {
     "lite-server": "^2.3.0"
   }
 }
