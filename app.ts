@@ -14,3 +14,27 @@ enum Color {
 };
 let myColor: Color = Color.Green;
 console.log(myColor); // 1
+
+// basic functions
+function sayHello(): void {
+    console.log("Hello");
+}
+
+function multiply(val1: number, val2: number): number {
+    return val1 * val2;
+}
+
+// function types
+let myMultiply: (a: number, b: number) => number;
+// myMultiply = sayHello;
+// myMultiply();
+myMultiply = multiply;
+console.log(myMultiply(2, 5));
+
+// complet object
+let complex: {data: number[], output: (a: boolean) => number[]} = {
+    data: [100, 3.99, 10],
+    output: function(all: boolean): number[] {
+        return this.data;
+    }
+}
