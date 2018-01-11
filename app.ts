@@ -61,3 +61,9 @@ if(typeof finalValue == "number") {
 } else {
     console.log("Final value is not a number");
 }
+
+// never
+// function that never returns anything (not the same than "void")
+function neverReturns(): never {
+    throw new Error('An error !');
+}
