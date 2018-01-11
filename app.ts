@@ -48,3 +48,8 @@ let complex2: Complex = {
         return this.data;
     }
 };
+
+// union types
+let myRealAge: number | string = 27;
+myRealAge = "27 years old";
+// myRealAge = true;
