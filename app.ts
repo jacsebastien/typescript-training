@@ -67,3 +67,11 @@ if(typeof finalValue == "number") {
 function neverReturns(): never {
     throw new Error('An error !');
 }
+
+// nullable types
+let canBeNull: number | null= 12;
+canBeNull = null;
+let canAlsoBeNull; // null
+canAlsoBeNull = null;
+let canThisBeAny = null;
+canThisBeAny = 12;
