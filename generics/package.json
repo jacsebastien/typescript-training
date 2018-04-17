@@ -1,0 +1,23 @@
+{
+  "name": "typescript-training",
+  "version": "1.0.0",
+  "description": "Project to learn TypeScript.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "tsc && lite-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jacsebastien/typescript-training.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jacsebastien/typescript-training/issues"
+  },
+  "homepage": "https://github.com/jacsebastien/typescript-training#readme",
+  "devDependencies": {
+    "lite-server": "^2.3.0"
+  }
+}
