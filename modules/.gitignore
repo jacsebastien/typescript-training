@@ -1,0 +1,5 @@
+# For NPM
+node_modules/
+
+# Ignore compiled files
+*.js
